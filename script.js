@@ -3,7 +3,6 @@ let service2=document.getElementById("service")
 let pricing2=document.getElementById("pricing")
 let btn=document.getElementById("btn")
 let contactUs2=document.getElementById("contactUs")
-let submit2=document.getElementById("submit");
 
 function home(){
      
@@ -37,7 +36,3 @@ function contactUs(){
 function submit(){
     alert("Message sended");
 }
-
-submit2.addEventListner("click",function(){
-    alert("jhgksg")
-});
